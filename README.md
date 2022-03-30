@@ -1,2 +1,4 @@
 # desafio-cordel
-Tentando montar o site que o guanabara desafiou
+ Desafio do modulo 3 do CursoemVideo
+ 
+ https://igorvinicius1.github.io/desafio-cordel/
