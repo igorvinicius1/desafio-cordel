@@ -2,54 +2,87 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@600&display=swap');
 
 
+
 header {
     font-family: 'Cormorant Upright', serif;
     background-color: black;
     color: white;
     text-align: center;
-    font-size: 60px;
+    font-size: 5vw; /*a letra se adapta ao tamanho da tela no caso (5%) da largura da tela */
     padding: 20px;
     margin: -10px;
     margin-top: -80px;
 }
 
 header > h1 {
-    padding: 22px;
+    padding: 8px;
 }
 
 header > p {
-    font-size: large;
+    font-size: 25px;
     color: white;
     margin: 10px;
-}
-
-.zulu {
-    
-    margin-top: -90px;
-    
 }
 
 main {
     font-family: 'Cormorant Upright', serif;
     font-size: larger;
     margin: 100px;
+    font-size: 3vw;
+    font-weight: 700;
+    padding-left: 0px
+}
+
+#container {
+    background-image: url(./pacote-d012/imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0px -183px;
+}
+
+#conteudo {
+    background-color: rgba(49, 47, 47, 0.507);
+    width: 40vw;
+    color: white;
+    padding-left: 180px;
+    width: 500px;
+    text-shadow: 1px -2px 2px black;
+}
+
+#container2 {
+    background-image: url(./pacote-d012/imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0px -183px;
+}
+
+section {
+    box-shadow: inset -3px -1px 13px 1px black;;
 }
 
 footer {
     background-color: black;
     color: white;
     text-align: center;
-    margin-bottom: 10px;
-    margin: -52px;
+    margin-bottom: 20px;
+    margin: -81px;
 }
 
 p {
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 
 p > a {
     font-weight: bold;
-    font-size: medium;
+    font-size: 25px;
     text-decoration: none;
     color: white;
 }
+
+.india {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
